@@ -1,0 +1,133 @@
+.home .container{
+    position: relative;
+}
+.home .container .floating-circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.home .container .floating-circle:nth-child(1){
+    background-color: var(--peach-red-10);
+    top: 19%;
+    left: -5%;
+    
+}
+.home .container .floating-circle:nth-child(2){
+    background-color: var(--dark-blue-10);
+    bottom: -14%;
+    left: 15%;
+    z-index: 9;
+}
+.home .container .floating-circle:nth-child(3){
+    background-color: var(--dark-blue-10);
+    right: -20%;
+    bottom: 14%;
+}
+.home .container .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 50px 30px;
+}
+
+.hero-image .circle-main{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: var(--peach-red-10);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hero-image .circle-main .circle-outer{
+    width: 500px;
+    height: 500px;
+    background-color: var(--peach-red-10);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image .circle-main .circle-outer .circle-inner{
+    width: 400px;
+    height: 400px;
+    background-color: var(--peach-red-10);
+    border-radius: 50%;
+}
+.hero-image .circle-main .circle-outer .circle-inner img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.heading-wrapper.main-heading h1{
+    font-size: 48px !important;
+    line-height: 58px !important;
+}
+
+.about{
+    position: relative;
+    background-color: var(--off-white);
+    padding: 100px 0;
+}
+.about .text-col .heading-wrapper {
+    margin-bottom: 30px;
+}
+
+.planning{
+    position: relative;
+    padding: 100px 0;
+}
+.heading-center .heading-wrapper{
+    text-align: center;
+}
+.planning .card-wrapper{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.what-we-do{
+    position: relative;
+    background-color: var(--off-white);
+    padding: 100px 0;
+}
+
+.services{
+    position: relative;
+    padding: 100px 0;
+}
+.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.our-leaders{
+    position: relative;
+    background-color: var(--off-white);
+    padding: 100px 0;
+}
+.our-leaders .leaders-list{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.testimonial{
+    position: relative;
+    padding: 100px 0;
+}
+.testimonial .container{
+    max-width: 100%;
+    width: 100%;
+}
+.testimonial-main{
+    margin-top: 40px;
+}

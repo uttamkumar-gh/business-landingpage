@@ -1,0 +1,18 @@
+.btn{
+    background-color: var(--peach-red);
+    padding: 9px 18px;
+    border-radius: 5px;
+
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    box-shadow: rgba(255, 62, 84, 30%) 0px 7px 29px 0px;
+}

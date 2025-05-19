@@ -1,0 +1,65 @@
+.card{
+    position: relative;
+    width: 100%;
+    background-color: var(--off-white);
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.card .card-num{
+    position: absolute;
+    font-family: var(--font-raleway);
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+    color: var(--dark-blue-10);
+    top: 10px;
+    right: 10px;
+}
+.card .card-icon{
+    width: 80px;
+    height: 80px;
+    background-color: var(--white);
+    border-radius: 10px;
+    margin-bottom: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .card-title h4{
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 800;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+.card .card-divider{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.card .card-divider .big-line{
+    width: 60px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: var(--peach-red);
+}
+.card .card-divider .small-line{
+    width: 20px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: var(--peach-red);
+}
+.card .card-text p{
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--black);
+}

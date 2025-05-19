@@ -1,0 +1,16 @@
+.heading-wrapper .heading-subtitle h3{
+    font-family: var(--font-raleway);
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--peach-red);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.heading-wrapper .heading-title h1{
+    font-family: var(--font-raleway);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
